@@ -37,7 +37,7 @@ int main(void)
         printf("meow\n");
     }
 
-    //forever loop, good for event listeners etc
+    //forever/infinite loop, good for event listeners etc | See llama for other do while use
     while (true) // or while (1) 1 = true 0 = false. true/1 will never = false so the loop will go on forever.
     {
         printf("meow/n")
