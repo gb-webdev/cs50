@@ -31,7 +31,7 @@ int main(void)
     }
     while (num1 > num2);
 
-    int years = 0; // Set years to 0 with a var to then incement it
+    int years = 0; // Set years to 0 with a var to then increment it
     while (num1 < num2)
     {
         num1 = num1 + (num1 / 3) - (num1 / 4);
@@ -39,4 +39,35 @@ int main(void)
     }
 
     printf("Years: %i", years);
+
+    // HARVARDS ANSWER
+
+    //Promt for starting # llamas
+    int start;
+    do
+    {
+        start = get_int("Start size: ");
+    } while (start <9);
+    
+    //promt for ending # of llamas
+    int end;
+    do
+    {
+        end = get_int("End size ");
+    } while (end < start);
+    
+    //How many years will it take to get to population goal?
+    int years = 0;
+    while (start < end)
+    {
+        //This is essentially start = start + (start / 12) vvv
+        //Let me add the value to the right (in brackets) to what start currently is
+        start += start /12;
+        years++;
+    }
+    printf("Years: %i\n", years);
+
+
+
 }
+
