@@ -22,5 +22,4 @@ int main(void)
 // with the limitations of bits, asking for 20 decimal points like below "%.20f". float will do what is called floating-point imprecision. This can be solved by using double, instead of float to get the correct decimals.
     double z = (double) x / (double) y;
     printf("%.20f\n", z);
-
 }
