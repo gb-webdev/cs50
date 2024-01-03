@@ -33,3 +33,15 @@ We can use the result of evaluating a Boolean expression in other programming co
 Sometimes when working with Boolean expressions we will use variables of type bool, but we don't have to.
 In C, every nonzero value is equivalent to true, and every zero is false.
 Two main types of Boolean expressions: logical operators and relational operators.
+
+Logical and && 
+Logical or ||
+Logical not !
+Relational operators 
+Less than < 
+Less than or equal to <=  
+Greater than >
+Greater than or equal to >=
+Equality ==
+Inequality !=
+
