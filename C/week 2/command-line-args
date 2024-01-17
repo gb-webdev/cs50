@@ -1,0 +1,19 @@
+#include <cs50.h>
+#include <stdio.h>
+
+
+// Argc is argument count. Argv is argument vector which is an array of strings
+int main(int argc, string argv[])
+{
+    for (int i = 0; i < argc; i++)
+    {
+        printf("argv[%i is %s\n". argv[i]);
+    }
+}
+
+// If we pass the arguments Zooey and Peanut into $./command-line-arguments
+// This will return:
+//argv[0] is ./command-line-arguments
+//argv[1] is Zooey
+//argv[2] is and
+//argv[3] is Peanut
