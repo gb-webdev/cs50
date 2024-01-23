@@ -24,5 +24,5 @@ int main(void)
     }
     printf("\n");
 }
-// This function will print " 69 109 109 97 " due to the %i rinting the ASCII number of the index 
+// This function will print " 69 109 109 97 " due to the %i printing the ASCII number of the index 
 // you can also use logic and maths on the ASCII numbers 

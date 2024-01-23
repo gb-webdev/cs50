@@ -11,7 +11,7 @@ int main(void)
     printf("After: ");
     for (int i = 0; i < strlen(s); i++) // iterates through chars via strlen
     {
-        if (s[i >= 'a' && s[i] <=] 'z')  // conditional checking lower case chars between a-z
+        if (s[i] >= 'a' && s[i] <= 'z')  // conditional checking lower case chars between a-z
         {
             printf("%c", s[i] - 32 ); // if detected - 32 on the asci chart to their capital counterpart
         }
