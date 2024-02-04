@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 // Given 2 elevators (named "left" and "right") in a building with 3 floors (numbered 0 to 2), write a function elevator accepting 3 arguments (in order):
 
 // left - The current floor of the left elevator
@@ -22,9 +24,17 @@ const char* elevator(int left, int right, int call) {
     return "right";
     }
   else if (left == call)
+    {
     return "left";
+    }
+  else if (left > call && right > left)
+    {
+    return "left";
+    }
+  else if (left < call && right < left)
+    {
+    return "left";
+    }
   
-  
-    return "right";
-
+  return "right";
 }
