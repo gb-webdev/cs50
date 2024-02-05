@@ -12,7 +12,7 @@ For i from 0 to n-1
 The amount of steps this would take to sort is equevelant to n squared. Not very efficient.
 
 n(n -1) /2
-O(n2) (n squared)
+O(n2) (n squared) (see algorithms.md)
 
 Bubble sort iterates through the whole array swapping numbers if they aren't in order,
 this allows the biggest numbers to 'bubble' their way to the top of the array.
@@ -26,7 +26,7 @@ If no swaps, quit
 
 The amount of steps this also takes is eqivelant to n squared, also not efficient
 However if the array is already sorted, it can quit early with that simple if statement.
-This gives it an advantage over selection sort in those cases.
+This gives it an advantage over selection sort in those cases O(n)  (see algorithms).
 
 (n - 1) * (n - 1)
 O(n2) (n squared)
