@@ -30,3 +30,21 @@ This gives it an advantage over selection sort in those cases O(n)  (see algorit
 
 (n - 1) * (n - 1)
 O(n2) (n squared)
+
+
+Merge Sort keeps halving the sort (simiilar to the phone book).
+It will move all the way to 1 number recursively, search the left half of 1 number.
+Moving accross and putting the sorted numbers into a new array.
+This costs more space but is faster than bubble sort and selection sort.
+The logic would look like this:
+
+If only one number
+  Quit
+Else
+  Sort left half of numbers
+  Sort right half of numbers
+  Merge sorted halves
+
+  The steps this takes is n log n
+
+O(n log n)
