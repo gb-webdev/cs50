@@ -57,4 +57,5 @@ int main (void)
     reutn 1;
 }
 
-// Granted this is not the best code syntatically, but this will make more sense down the line with databases etc.
+// Granted this structure is not the best code syntatically 
+// But this will make more sense down the line with databases etc.
