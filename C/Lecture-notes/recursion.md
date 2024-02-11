@@ -34,3 +34,5 @@ int factorial(int n) {
         return n * factorial(n - 1);
     }
 }
+
+// The base case is the condition to stop the recursion. The recursive case is the part where the function calls on itself.

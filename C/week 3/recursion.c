@@ -1,6 +1,9 @@
 #include <cs50.h>
 #include <stdio.h>
 
+// In recursion, the base case is the condition to stop the recursion.
+// The recursive case is the part where the function calls on itself.
+
 void draw(int n);
 
 int main (void)
