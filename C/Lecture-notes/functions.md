@@ -17,7 +17,7 @@ This is why it is advised to have good names for your functions with good docume
 Also making them small is good too, smaller code is easier to debug.
 
 Declaring a function: 
-    - This gives the compiler a heads up that a user written fbnction is appearing in code.
+    - This gives the compiler a heads up that a user written function is appearing in code.
     - Function declerations should always go atop your code
     - there are standard forms that every default function follows
         - return-type name(argument-list);
