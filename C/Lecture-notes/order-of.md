@@ -2,7 +2,7 @@ Discussing the upper and lower bound posibility of algorithms
 
 Upper bound: The maximum number of steps a function can take to complete  (O worst case order of big o notation)
 
-Lower bound: The lowest number of steps the function can take to compplete (º best case, omega notation)
+Lower bound: The lowest number of steps the function can take to complete (º best case, omega notation)
 
 
 Search functions:
